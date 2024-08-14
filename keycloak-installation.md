@@ -2,6 +2,10 @@
 ## Documentation
 
 ## Install KeyCloak SSO on Ubuntu 20.04
+Keycloak is a free and open source Identity and Access Management solution by RedHat Community. Its aim is to secure modern applications and services without writing any code. It provides a wide range of features including multifactor authentication, SSO, centralized user management, authentication, authorization, social login, and more. Keycloak allows you to add authentication to applications and secure services with minimum fuss. You don’t need to deal with storing users or authenticating users.
+
+Keycloak provides single sign out, which means users only have to logout once to be logged out of all applications that use Keycloak. Keycloak is an Identity broker as it authenticate users with existing OpenID Connect or SAML 2.0 Identity Providers. Other important feature is that Keycloak has built in support to connect to existing LDAP or Active Directory servers.
+
 
 ``` bash
 apt-get update -y
