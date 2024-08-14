@@ -6,7 +6,6 @@ Keycloak is a free and open source Identity and Access Management solution by Re
 
 Keycloak provides single sign out, which means users only have to logout once to be logged out of all applications that use Keycloak. Keycloak is an Identity broker as it authenticate users with existing OpenID Connect or SAML 2.0 Identity Providers. Other important feature is that Keycloak has built in support to connect to existing LDAP or Active Directory servers.
 
-
 ``` bash
 apt-get update -y
 apt-get upgrade -y
